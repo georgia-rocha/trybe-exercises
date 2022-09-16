@@ -6,6 +6,8 @@
 
         #Georgia{
             border-radius: 50%;
+            top: 20px;
+            left: 10px;
         }
 
         body {
