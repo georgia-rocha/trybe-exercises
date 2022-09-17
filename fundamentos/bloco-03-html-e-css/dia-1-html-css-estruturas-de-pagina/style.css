@@ -4,10 +4,31 @@
             font-size: 25px;
         }
 
+        .meuNome {
+            position: absolute;
+            color: blanchedalmond;
+            font-size: 30px;
+            text-align: center;
+            left: 50%;
+            translate: -50%;
+            margin-top: 50px;
+        }
+
         #Georgia{
             border-radius: 50%;
+            margin-top: 9px;
+            margin-left: 16px;
+        }
+
+        .profile {
+            background-image: url(fotodecapa2.JPG);
+            width: 100%;
+            height: 350px;
             top: 20px;
-            left: 10px;
+            left: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+           
         }
 
         body {
@@ -21,6 +42,7 @@
         }
 
         .list-style {
+
             color: rgb(8, 54, 22);
             font-family: 'Courier New', Courier, monospace;
             font-style: italic;
@@ -29,4 +51,14 @@
 
         .paragrafos {
             width: 90%;
+        }
+        
+        .descricao {
+            font-family: 'Courier New', Courier, monospace;
+            width: 90%;
+            color: rgb(8, 54, 22);
+        }
+
+        div {
+            border: 2px solid green;
         }
