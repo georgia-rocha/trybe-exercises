@@ -50,13 +50,16 @@
             font-family: 'Courier New', Courier, monospace;
             margin-left: 25px;
             margin-bottom: 45px;
-            background-color: aqua;
         }
 
         .formatonovo {
-            background-color: black;
             width: 30%;
             display: inline-block;
+            text-align: center;
+        }
+
+        #linkedin, #github, #gmail{
+            width: 50px;
         }
 
         .list-style {
