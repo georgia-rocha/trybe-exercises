@@ -45,12 +45,18 @@
             font-size: 20px;
         }
 
-        #formato {
+        .formato {
             color: rgb(8, 54, 22);
             font-family: 'Courier New', Courier, monospace;
-            text-align: center;
             margin-left: 25px;
             margin-bottom: 45px;
+            background-color: aqua;
+        }
+
+        .formatonovo {
+            background-color: black;
+            width: 30%;
+            display: inline-block;
         }
 
         .list-style {
