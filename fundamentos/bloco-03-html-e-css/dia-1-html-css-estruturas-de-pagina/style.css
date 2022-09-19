@@ -13,8 +13,10 @@
             padding: 0;
         }
 
-        .meuNome {
+        #meuNome{
             position: absolute;
+            font-family: 'Courier New', Courier, monospace;
+            width: 90%;
             color: blanchedalmond;
             font-size: 30px;
             text-align: center;
@@ -56,18 +58,19 @@
             font-size: 20px;
         }
 
-        .formato {
+        #formato {
             color: rgb(8, 54, 22);
             font-family: 'Courier New', Courier, monospace;
-            margin-left: 25px;
+            margin-left: 400px;
             margin-bottom: 45px;
         }
 
-        .formatonovo {
-            width: 10%;
+        .formatonovo li {
+            width: 100px;
             display: inline-block;
-            text-align:right;
-            margin-left: 200px;
+            margin-left: 45px;
+            background-color:antiquewhite;
+            
         }
 
         #linkedin, #github, #gmail{
@@ -84,18 +87,18 @@
             margin-bottom: 45px;
         }
 
-        ul li:nth-child(odd) {
+        .list-style li:nth-child(odd) {
             background-color: bisque;
             color: rgb(8, 54, 22);
             margin-right: 40px;
         }
-        ul li:hover:nth-child(odd){
+        .list-style li:hover:nth-child(odd){
             background-color: rgb(8, 54, 22);
             color:antiquewhite ;
             margin-right: 40px;
         }
 
-        li:hover{
+        .list-style li:hover{
             background-color: rgb(8, 54, 22);
             color: antiquewhite;
             margin-right: 40px;
