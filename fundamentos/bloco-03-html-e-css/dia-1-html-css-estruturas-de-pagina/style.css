@@ -40,6 +40,17 @@
             box-shadow: 0px 20px 20px rgb(2, 29, 11);        
         }
 
+        .local{
+            font-family: 'Courier New', Courier, monospace;
+            color :rgb(248, 252, 249);
+            float: right;
+            margin-top: 14rem;
+            width: 30%;
+            text-align: right;
+            margin-right: 100px;
+            
+        }
+
         body {
             background-color: rgb(248, 239, 223);
             font-size: 20px;
@@ -53,9 +64,10 @@
         }
 
         .formatonovo {
-            width: 30%;
+            width: 10%;
             display: inline-block;
-            text-align: center;
+            text-align:right;
+            margin-left: 200px;
         }
 
         #linkedin, #github, #gmail{
@@ -89,11 +101,12 @@
             margin-right: 40px;
         }
 
-        .descricao {
+        .descricao, p {
             font-family: 'Courier New', Courier, monospace;
             width: 90%;
             color: rgb(8, 54, 22);
             text-align: justify;
             margin-bottom: 15px;
             margin-left: 25px;
+            text-indent: 1.5em;
         }
