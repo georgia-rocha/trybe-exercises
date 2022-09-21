@@ -15,7 +15,7 @@
 - Combinar e agrupar seletores de CSS para criar regras bem definidas.
 - Utilizar o HTML para criar listas, links e adicionar imagens;
 
-###3.4 HTML Semântico
+### 3.4 HTML Semântico
 - Fazer uso de elementos HTML de acordo com o sentido e o propósito que eles carregam. Tais elementos incluem, mas não se limitam a: header, nav, aside, article, section, footer e img;
 - Criar páginas semanticamente válidas e acessíveis;
 - Entender a diferença entre elementos de bloco e elementos inline.
