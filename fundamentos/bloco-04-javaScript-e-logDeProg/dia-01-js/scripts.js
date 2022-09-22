@@ -82,17 +82,17 @@ switch (statusDeVaga) {
 const a = 8;
 const b = 5;
 
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log(a % b);
+console.log('Soma: ' + a + b);
+console.log('Subtração '+ a - b);
+console.log('Multiplicação ' + a * b);
+console.log('Divisão ' +  a / b);
+console.log('Módulo ' + a % b);
 
 if (a < b){
-    console.log(b)
+    console.log("'b' é maior que 'a'");
 }
 else {
-    console.log(a)
+    console.log("'a' é maior que 'b'");
 }
 
 const c = 12;
@@ -132,3 +132,29 @@ else if (ladoA + ladoB + ladoC <= 0) {
 else {
     console.log(false);
 }
+
+const chessPiece = 'bispo';
+
+switch (chessPiece.toLocaleLowerCase()) {
+    case 'rei':
+        console.log('Rei: Uma casa para qualquer direção.');
+        break;
+    case 'bispo':
+        console.log('Bispo: Diagonal.');
+        break;
+    case 'rainha':
+        console.log('Rainha: Diagonal, horazontal e vertical.');
+        break;
+    case 'cavalo':
+        console.log('Cavalo -> "L" pode pular sobre as peças.');
+        break;
+    case 'torre':
+        console.log('Torre -> Horizontal e vertical.');
+        break;
+    case 'peão':
+        console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+        break;
+    default:
+        console.log('Erro, peça inválida!');
+        break;
+    }
