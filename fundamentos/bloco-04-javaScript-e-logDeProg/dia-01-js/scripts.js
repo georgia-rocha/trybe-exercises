@@ -158,3 +158,84 @@ switch (chessPiece.toLocaleLowerCase()) {
         console.log('Erro, peça inválida!');
         break;
     }
+
+    let notas = 50;
+
+    if (notas < 0 || notas > 100) {
+        console.log("Erro, nota incorreta");
+    }
+    else if (notas >= 90) {
+        console.log('Sua nota é ' + 'A.');
+    }
+    else if (notas >= 80) {
+        console.log('Sua nota é ' + 'B');
+    }
+    else if (notas >= 70) {
+        console.log('Sua nota é ' + 'C');
+    }
+    else if (notas >= 60) {
+        console.log('Sua nota é ' + 'D');
+    }
+    else if (notas >= 50) {
+        console.log('Sua nota é ' + 'E');
+    }
+    else {
+        console.log('Sua nota é ' + 'F')
+    }
+
+const primeira = 11;
+const segunda = 23;
+const terceira = 34;
+
+let resposta = false;
+
+if ((primeira % 2 === 0 || segunda % 2 === 0 || terceira % 2 === 0)) {
+  resposta = true;
+};
+console.log(resposta);
+
+const custoProduto = 9;
+const valorDeCompra = 15;
+
+if (custoProduto >= 0 && valorDeCompra >= 0) {
+  const custoTotalProduto = custoProduto * 0.2;
+  const lucro = (valorDeCompra - custoTotalProduto) * 1000;
+  console.log(lucro);
+} else {
+  console.log("Erro, os valores não podem ser negativos");
+}
+
+let inss;
+let ir;
+let salario = 1500.10;
+
+if (salario <= 1556.94) {
+    inss = salario * 0.08;
+}
+else if (salario <= 2594.92) {
+    inss = salario * 0.09;
+}
+else if (salario <= 5189.82) {
+    inss = salario * 0.11;
+}
+else {
+    inss = 570.88;
+}
+let salarioBase = salario - inss;
+
+if (salarioBase <= 1903.98) {
+    ir = 0;
+}
+else if (salarioBase <= 2826.65) {
+    ir = (salarioBase * 0.075) - 142.80;
+}
+else if (salarioBase <= 3751.05) {
+    ir = (salarioBase * 0.15) - 354.80;
+}
+else if (salarioBase <= 4664.68) {
+    ir = (salarioBase * 0.225) - 636.13;
+}
+else {
+    ir = (salarioBase * 0.275) - 869.36;
+}
+console.log('Salário liquído: ' + (salarioBase - ir));
