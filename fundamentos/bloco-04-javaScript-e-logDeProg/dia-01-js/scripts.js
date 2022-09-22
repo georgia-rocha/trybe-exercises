@@ -118,3 +118,17 @@ else if (numero < 0){
 else {
     console.log('zero');
 }
+
+const ladoA = 50;
+const ladoB = 45;
+const ladoC = 85;
+
+if (ladoA + ladoB + ladoC === 180) {
+    console.log(true);
+}
+else if (ladoA + ladoB + ladoC <= 0) {
+    console.log('Erro');
+}
+else {
+    console.log(false);
+}
