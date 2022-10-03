@@ -35,6 +35,7 @@ let arrayNumeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'O
 for(let index in arrayNumeros){
     const listaLi = document.createElement('li');
     listaLi.innerText = arrayNumeros[index];
+    listaLi.className = 'lista-li';
     listaUl.appendChild(listaLi);
 }
 for (let index = 1; index <= 3; index += 1){
@@ -47,6 +48,31 @@ const tituloH1 = document.querySelector('h1');
 tituloH1.className = 'title';
 
 const descrevendoH3 = document.querySelectorAll('h3');
-for (let index = 0; index <= 3; index += 1) {
+for (let index = 0; index < 3; index += 1) {
     descrevendoH3[index].className = 'description';
 }
+
+const removendoLeft = document.getElementsByClassName('left-content')[0];
+main.removeChild(removendoLeft);
+
+const centralizandoRight = document.getElementsByClassName('right-content')[0];
+centralizandoRight.style.marginRight='auto';
+
+const trocandoCorDaSection = document.getElementsByClassName('center-content')[0];
+trocandoCorDaSection.parentNode.style.backgroundColor = 'green';
+
+const removendoLi = document.getElementsByTagName('ul')[0];
+console.log(removendoLi);
+removendoLi.lastChild.remove();
+removendoLi.lastChild.remove();
+/* let listaDeNumeros = document.getElementsByClassName('lista-li');
+const numeros = ["Nove", "Dez"]
+for(let i = 0; i < numeros.length; i+= 1) {
+    for(let index = 0; index < listaDeNumeros.length; index += 1) {
+        let elementos = listaDeNumeros[index];
+        
+        if (elementos.innerHTML === numeros[i]){
+            listaUl.removeChild(elementos);
+        }
+}
+} */
