@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.calendariodata {
+    text-align: center;
+}
+
+body {
+    background: url("foto.jpg") ;
+    background-size: cover;
+    padding: 30px;
+    background-position: 50%;
+}
+
+.alteraColor {
+    color: aliceblue;
+}

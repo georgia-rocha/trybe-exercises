@@ -3,14 +3,11 @@ const titulo = document.getElementById('titulo');
 titulo.style.marginLeft = '15px';
 
 const quadro = document.getElementById('quadro');
-quadro.style.border = '3px solid black';
 quadro.style.margin = '10px';
 
 const formatandoGeral = document.getElementById('alterarFormato');
 formatandoGeral.style.margin = '10px';
 
-const botoes = document.getElementById('buttons');
-botoes.style.marginLeft = '15px';
 
 
 function validacaoText() {
