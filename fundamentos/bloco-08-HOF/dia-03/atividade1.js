@@ -116,7 +116,6 @@ const authorWith3DotsOnName = books.find((book) =>
 .name
 console.log(authorWith3DotsOnName);
 
-
 /* function authorWith3DotsOnName() {
     return books.find((book) => (
       book.author.name[1] === '.'

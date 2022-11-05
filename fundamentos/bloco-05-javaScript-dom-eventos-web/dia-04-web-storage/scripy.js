@@ -5,8 +5,9 @@ const corDeTela = document.getElementById('corDeTela');
 let tela = document.querySelector('body');
 
 corDeTela.addEventListener('click', function (event) {
-    
-    if(corDeTela.value === 'white') {
+    tela.style.background = corDeTela.value
+    localStorage.setItem('background', corDeTela.value);
+   /*  if(corDeTela.value === 'white') {
        tela.style.background = 'white';
        localStorage.setItem("background", "white");
     } else if (corDeTela.value === 'black'){
@@ -21,5 +22,5 @@ corDeTela.addEventListener('click', function (event) {
     } else {
         tela.style.background = 'red';
         localStorage.setItem("background", "red");
-    }
+    } */
 })
