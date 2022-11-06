@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TrybeTrip</title>
+</head>
+
+<body>
+    <header id="titulo">
+        <h1 class="title is-1 alteraColor">Dados Cadastrais</h1>
+    </header>
+    <br>
+    <form action="" class="shadow-lg p-3 bg-body rounded">
+        <section id="quadro">
+            <section id="alterarFormato">
+                <label for="nome">Nome: </label>
+                <input type="text" name="name" id="nome" autocomplete="off" class="input is-normal form-field"
+                    minlength="10" maxlength="40" placeholder="Digite seu nome">
+                <br>
+                <br>
+                <label for="">Email: </label>
+                <input type="email" name="email" id="email" autocomplete="off" class="input is-normal form-field"
+                    minlength="10" maxlength="50" placeholder="Digite seu email">
+                <br>
+                <br>
+                <input type="radio" name="talk-type" id="talk-type1">
+                <label for="talk-type">Cidade</label>
+
+                <input type="radio" name="talk-type" id="talk-type2">
+                <label for="talk-type">Campo</label>
+
+                <input type="radio" name="talk-type" id="talk-type3">
+                <label for="talk-type">Praia</label>
+
+                <input type="radio" name="talk-type" id="talk-type4">
+                <label for="talk-type">Montanha</label>
+                <br>
+                <br>
+                <h2>Porque você merece viajar coma a TRYBE?</h2>
+                <br>
+                <textarea name="resposta" class="textarea" id="resposta" cols="50" rows="20" maxlength="500"
+                    placeholder="Digite sua resposta aqui"></textarea>
+                <br>
+                <label for="calendario" class="calendariodata"></label>
+                <input type="date" name="date" id="calendario">
+                <br>
+                <br>
+                <section id="checkbox1">
+                    <label for="opcao1"><input type="checkbox" name="opcao" id="opcao1" value="op1">
+                        Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                </section>
+                <label for="opcao2">
+                    <input type="checkbox" name="opcao" id="opcao2" value="op2">Concordo que imagens das minhas férias
+                    poderão ser usadas na divulgação de concursos
+                    futuros.</label>
+
+                <label id="fotosumiu" style="display: none;" for="foto">Adicione sua foto:<input type="file" name="foto"
+                        id="foto"></label>
+
+            </section>
+        </section>
+        <section class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="submit" id="botaoEnviar" class="button is-normal">Enviar</button>
+            <button type="reset" id="botaoApagar" class="button is-normal">Apagar</button>
+        </section>
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>

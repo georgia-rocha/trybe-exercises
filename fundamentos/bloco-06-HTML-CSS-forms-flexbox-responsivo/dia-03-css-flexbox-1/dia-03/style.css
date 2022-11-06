@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+.header-container {
+  width: 100%;
+  background: darkslategray;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.header-img {
+  width: 70px;
+}
+
+h1 {
+  color: rgb(238, 238, 238);
+}
+
+h3 {
+  color: rgb(194, 194, 194);
+}
+
+h3:hover { 
+  color: mediumaquamarine;
+}
+/* hover muda a cor qnd passa o mouse */
+.section-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+p {
+  color: #232525;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 90%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto 13px auto;
+  width: 50%;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.gallery-card {
+  align-items: center;
+  background-color: rgb(241,241,241);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgba(161, 161, 161, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+}
+
+hr {
+  margin-top: 10px;
+  width: 25%;
+}
+
+h4 {
+  color: #5c687c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  align-items:center;
+  display: flex;
+  justify-content: center;
+
+}
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
