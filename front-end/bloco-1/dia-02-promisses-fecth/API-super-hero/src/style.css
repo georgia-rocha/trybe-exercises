@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+h1 {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   color: aliceblue;
+   font-size: 3rem;
+}
+
+section{
+display: flex;
+justify-content: center;  
+}
+
+#name {
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img {
+    border-radius: 5px;
+   /* box-shadow: -7px -3px 57px 0 #faf2fa 0.75; */
+   box-shadow: -1px 0px 29px 4px #f5f1f1;
+}
+
+button {
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 20%;
+   height: 30px;
+   padding: 3px;
+   border-color: green;
+   background-color:darkgreen;
+   color: aliceblue;
+   font-size: 1rem;
+   margin-left: 40%;
+}
